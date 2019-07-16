@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### IOC的基本原理
 通过反射来解析类的各种信息，包括构造器，参数以及方法，然后将其封装为bean，定义信息类，将他的构造器，参数以及方法等放入map中，也就是容器，其实容器就是个map。
 
@@ -270,7 +269,3 @@ public class MonkeyServiceTest {
 
 </project>
 ```
-=======
-# myIoc
-手写SpringIOC，基于xml实现
->>>>>>> 18b201e6302750943ecdbdd9248fd63caaa7264e
