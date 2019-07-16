@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+    <bean id = "eat" class = "ioc.Eat"/>
+    <bean id = "monkey" class="ioc.Monkey"/>
+    <bean id = "service" class="ioc.MonkeyService">
+        <property name = "apple" bean = "eat"/>
+    </bean>
+</beans>
